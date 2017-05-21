@@ -1,121 +1,127 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!DOCTYPE html>
+<!-- Wojciech was here ;-) -->
+<html lang="en">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <link rel="shortcut icon" href="./img/favicon.ico"/>
       <title>Wojciech Zaremba</title>
-      <meta name="description" content="I'm a PhD student at the New York University and a researcher at Facebook AI Research.">
-      <meta name="keywords" content="Wojciech Zaremba, Yann LeCun, Rob Fergus, Geoffrey Hinton, New York University, Courant Institute, Google, NVIDIA, Machine Learning, Deep Learning, High-level Vision, Brain Imaging, Artificial Intelligence">
-      <link href="style.css" rel="stylesheet" type="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <link rel="shortcut icon" href="./favicon.ico"/>
+      <link rel="stylesheet" href="style.css" media="screen">
+      <style type="text/css">
+         #bio a { color: black; }
+      </style>
       <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-      <script>
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-         
-         ga('create', 'UA-44127326-1', 'nyu.edu');
-         ga('send', 'pageview');
+      <script language="JavaScript">
+         $(document).ready(function(){
+            $("#email").html("woj.zaremba@gmail.com");
+            $("#email").attr('href',"mailto:woj.zaremba@gmail.com");
+         });
       </script>
       <script language="JavaScript">
          $(document).ready(function(){
-         	$("#email").html("woj.zaremba@gmail.com");
-         	$("#email").attr('href',"mailto:woj.zaremba@gmail.com");
+            $("#email").html("woj.zaremba@gmail.com");
+            $("#email").attr('href',"mailto:woj.zaremba@gmail.com");
          });
       </script>
    </head>
    <body>
-      <div id="big_container">
-         <div id="header">
-            <a href="http://www.nyu.edu/" accesskey="1"><img src="img/NYU_logo.png" alt="New York University"></a>
+      <div class="container">
+         <div class="page-header" id="banner">
+            <div class="row">
+               <div class="col-xs-8">
+                  <h1>Wojciech Zaremba</h1>
+                  <blockquote>
+                     <p>Head of Robotics at OpenAI</p>
+		             <p>woj.zaremba at gmail.com</p>
+                  </blockquote>
+               </div>
+               <div class="col-xs-4">
+                  <img src="img/wojciech_zaremba.png" style="max-height: 207px" class="img-responsive"/>
+               </div>
+            </div>
          </div>
-         <div id="container">
-            <div id="content">
-               <div id="wojciech">
-                  <p class="brand">Wojciech Zaremba</p>
-                  <p class="description">I'm a PhD student at <a href="http://nyu.edu/" target="_blank">New York University</a> and a research scientist at <a href="https://research.facebook.com/ai" target="_blank">Facebook AI Research</a>. I am working here under the supervision of <a target="_blank" href="http://cs.nyu.edu/~fergus">Prof. Rob Fergus</a> and <a target="_blank" href="http://yann.lecun.com/">Prof. Yann LeCun</a>.
+         <div class="row">
+            <div class="col-xs-12">
+                  <p>
+                     <a class="btn btn-default" href="#abstract">Summary</a>
+                     <a class="btn btn-primary"href="#books">Releases</a>
+	                 <a class="btn btn-warning" href="#publications">Selected Publications</a>
+                     <a class="btn btn-danger" href="#speaking">Speaking engagements</a>
+	      	         <a class="btn btn-success" href="#code">Hobby</a>	      
                   </p>
-
-
-                  <p class="description">I used to work at Google Brain (<a target="_blank" href="http://googleblog.blogspot.com/2012/06/using-large-scale-brain-simulations-for.html">Google Brain</a>) with such amazing people like <a target="_blank" href="http://www.cs.toronto.edu/~hinton/">Prof. Geoffrey Hinton</a>, and <a target="_blank" href="http://www.cs.utoronto.ca/~ilya/"> Ilya Sutskever</a>. Together with my team at Google we developed deep learning based <a href="http://googleresearch.blogspot.com/2013/06/improving-photo-search-step-across.html" target="_blank">photosearch for Google+</a>. 
-                  </p>
-
-                  <p class="description">
-                  Moreover, I used to work at <a target="_blank" href="http://www.nvidia.com">Nvidia</a> on GPU driver memory management, Center for Learning and Visual Computing at École Centrale, and Digital Enterprise Research Institute at National University of Ireland.</p>
-
-		  <p class="description">I used to be a CTO of a small IT company <a target="_blank" href="http://www.software-operations.com">Software Operations</a> originally founded in Shanghai, China.</p>
-
-                  <p class="description">I am passionate about aerial sports like <a href="http://www.youtube.com/watch?v=UU8CWP3wosg" target="_blank">skydiving</a> and paragliding.</p>
-
-
-		  <p class="description">You can contact me by email at <a id="email"></a>. My CV is available on demand.</p>
-
-               </div>
-               <div id="main">
-                  <div id="info">
-                     <h3>Research Interests</h3>
-                     <ul>
-                        <li>Deep Learning for Machine Perception</li>
-                        <li>Reinforcement Learning</li>
-                        <li>Learning algorithms</li>
-                        <li>High-level Vision</li>
-                        <li>Language understaning</li>
-                     </ul>
-                     <h3>Education</h3>
-                     <ul>
-                        <li><a href="http://www.nyu.edu/" target="_blank">New York University, Courant Institute</a>: pursue PhD in Computer Science<br/><em>2013-current</em></li>
-                        <li><a href="http://www.polytechnique.edu/" target="_blank">École Polytechnique, Paris</a>: M.Sc. in Mathematics (<strong>summa cum laude</strong>)<br/><em>2011-2012</em></li>
-                        <li><a href="http://www.mimuw.edu.pl/?LANG=en" target="_blank">University of Warsaw, Poland</a>: M.Sc. in Mathematics (<strong>GPA: 4.98/5.0; highest honors</strong>)<br/><em>2010-2012</em></li>
-                        <li><a href="http://www.mimuw.edu.pl/?LANG=en" target="_blank">University of Warsaw, Poland</a>: B.Sc. in Mathematics, Computer Science<br/><em>2007-2010</em></li>
-                     </ul>
-                  </div>
-                  <div id="photo">
-                     <img id="img_photo" src="img/wojciech_zaremba.png" alt="Wojciech Zaremba" width="200"/>
-                     <p>
-                        <span id="linkedin"><a href="http://www.linkedin.com/in/wojciechzaremba" target="_blank">
-                        <img src="img/linkedin-tr-resize.png" border="0" title="LinkedIn profile" alt="View Wojciech Zaremba's profile on LinkedIn">
-                        </a></span>
-                     </p>
+             </div>
+         </div>
+         <div class="alert alert-dismissable alert-default">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="page-header">
+                     <h1 id="abstract">Summary</h1>
                   </div>
                </div>
-               <div id="profile">
-                  <div id="publications">
-                     <h3>Publications</h3>
-                     <ul>
-                        <li><u>Papers</u></li>
+            </div>
+            <div class="row">
+               <div class="col-lg-12" id="bio">
+                  <p>
+                     Some highlights of my life so far: 
+                  </p>
+                  <ul>
+                     <li>Head of Robotics at <a href="https://openai.com" target="blank_">OpenAI</a></li>
+                     <li>PhD in Computer Science from <a href="http://www.cs.nyu.edu" target="_blank">New York University</a></li>
+                     <li>Master Mathematics from <a href="https://www.polytechnique.edu/en" target="_blank">Ecole Polytechnique</a> and <a href="http://en.uw.edu.pl/" target="_blank">University of Warsaw</a> (GPA: 4.98/5.0; highest honors) </li>
+                     <li><a href="https://research.googleblog.com/2015/02/announcing-2015-north-american-google.html" target="_blank">Google PhD Fellowship recipient 2015</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         
+
+	    <div class="alert alert-dismissable alert-primary">
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="page-header">
+                     <h1 id="books">Releases</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-9">  
+
+                   <iframe src="https://player.vimeo.com/video/217578517" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+               </div>
+            </div>
+         </div>
+      
+         <div class="alert alert-dismissable alert-warning">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="page-header">
+                     <h1 id="publications">Selected Publications</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <h4>Papers</h4>
+
                         <ul>
-
-        <li><em><a href="http://arxiv.org/abs/1410.8206" target="_blank">Addressing the Rare Word Problem in Neural Machine Translation</a></em><br/a>					
-					<a href = "http://nlp.stanford.edu/~lmthang/" target="_blank">Thang Luong</a>,
-					<a href = "http://cs.stanford.edu/~quocle/" target="_blank">Quoc Viet Le</a>,
-					<a href = "http://www1.icsi.berkeley.edu/~vinyals/" target="_blank">Oriol Vinyals</a>,
-					<a href = "http://www.cs.toronto.edu/~ilya/" target="_blank">Ilya Sutskever</a>,
-					Wojciech Zaremba, 
-			   </li>
-
-        <li><em><a href="http://arxiv.org/abs/1410.4615" target="_blank">Learning to Execute</a></em><br/a>					
+   
+              <li><em><a href="http://arxiv.org/abs/1410.4615" target="_blank">Learning to Execute</a></em><br/a>					
 					Wojciech Zaremba, 
 					<a href = "http://www.cs.toronto.edu/~ilya/" target="_blank">Ilya Sutskever</a>
 			   </li>
 
-                          <li><em><a href="http://arxiv.org/abs/1409.2329" target="_blank">Recurrent Neural Network Regularization</a></em><br/a>					
+               <li><em><a href="http://arxiv.org/abs/1409.2329" target="_blank">Recurrent Neural Network Regularization</a></em><br/a>					
 					Wojciech Zaremba, 
 					<a href = "http://www.cs.toronto.edu/~ilya/" target="_blank">Ilya Sutskever</a>,
 					<a href = "http://www1.icsi.berkeley.edu/~vinyals/" target="_blank">Oriol Vinyals</a>
 			   </li>
 
 
-                          <li><em><a href="http://arxiv.org/abs/1406.1584" target="_blank">Learning to Discover Efficient Mathematical Identities</a></em><br/a>The Neural Information Processing Systems 2014 (spotlight)<br/>					
+               <li><em><a href="http://arxiv.org/abs/1406.1584" target="_blank">Learning to Discover Efficient Mathematical Identities</a></em><br/a>The Neural Information Processing Systems 2014 (spotlight)<br/>					
 					Wojciech Zaremba, 
           Karol Kurach, 
-					<a href = "http://cs.nyu.edu/~fergus" target="_blank">Rob Fergus</a>
-			   </li>
-
-
-         <li><em><a href="http://arxiv.org/abs/1404.0736" target="_blank">Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation</a></em><br/a>The Neural Information Processing Systems 2014<br/>					
-					Emily Denton, 
-					Wojciech Zaremba, 
-					<a href = "http://cims.nyu.edu/~bruna/" target="_blank">Joan Bruna</a>, 
 					<a href = "http://cs.nyu.edu/~fergus" target="_blank">Rob Fergus</a>
 			   </li>
 
@@ -136,102 +142,108 @@
 					<a href = "http://cs.nyu.edu/~fergus" target="_blank">Rob Fergus</a>
 			   </li>
 
-			   <li><em><a href="http://arxiv.org/abs/1312.6203" target="_blank">Spectral networks and locally connected networks on graphs</a></em><br/a>International Conference on Learning Representations 2014 (oral presentation)<br/>					
-					<a href = "http://cims.nyu.edu/~bruna/" target="_blank">Joan Bruna</a>, 
-			   		Wojciech Zaremba, 
-			   		<a href = "http://www.sci.ccny.cuny.edu/~szlam/" target="_blank">Arthur Szlam</a>, 
-			   		and 
-			   		<a href = "http://yann.lecun.com/" target="_blank">Yann LeCun</a>
-			   </li>
+               </div>
 
-			   <li><em><a href="docs/btest.pdf" target="_blank">B-test: A Non-parametric, Low Variance Kernel Two-sample Test</a></em><br/>The Neural Information Processing Systems 2013<br/>					
-					Wojciech Zaremba,
-					<a href="http://www.gatsby.ucl.ac.uk/~gretton/" target="_blank">Arthur Gretton</a> and
-					<a href="http://vision.mas.ecp.fr/Personnel/blaschko/" target="_blank">Matthew Blaschko</a>
-			   </li>
-
-                           <li><em><a href="docs/ecml2013main.pdf" target="_blank">Taxonomic Prediction with Tree-Structured Covariances</a></em><br/>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2013<br/>
-					<a href="http://vision.mas.ecp.fr/Personnel/blaschko/" target="_blank">Matthew Blaschko</a>, 
-					Wojciech Zaremba and 
-					<a href="http://www.gatsby.ucl.ac.uk/~gretton/" target="_blank">Arthur Gretton</a>
-			   </li>
+		  </div>
+		  
+               </div>
+            </div>
+         </div>
 
 
-                           <li><em><a href="docs/ipmi2013.pdf" target="_blank">Learning from M/EEG data with variable brain activation delays</a></em>
-					<br/><a href="docs/ipmi2013presentation.pdf" target="_blank">Oral presentation</a> at International Conference on Information Processing in Medical Imaging 2013<br/>					
-					Wojciech Zaremba,
-					<a href="http://www.centrale-ponts.fr/personnel/pawan/" target="_blank">Pawan Kumar</a>, 
-					<a href="http://vision.mas.ecp.fr/Personnel/blaschko/" target="_blank">Matthew Blaschko</a> and 
-					<a href="http://alexandre.gramfort.net/" target="_blank">Alexandre Gramfort</a>
-			   </li>
-
-                           <li><em><a href="docs/JaBEE.pdf" target="_blank">JaBEE - Framework for Object-oriented Java Bytecode Compilation and Execution on Graphics Processor Units</a></em><br/>GPGPU5 workshop at Architectural Support for Programming Languages and Operating Systems 2012<br/>					
-					Wojciech Zaremba,
-					Yuan Lin and
-					Vinod Grover
-			   </li>
-
-                           <li><em><a href="docs/zkp.pdf" target="_blank">Extending web applications with a lightweight zero knowledge proof authentication</a></em><br/>International Conference on Soft Computing as Transdisciplinary Science 2008<br/>
-					<a href="http://grzonkowski.com/" target="_blank">Sławomir  Grzonkowski</a>, 
-					Wojciech Zaremba
-					<a href="http://www.deri.ie/users/maciej-zaremba/" target="blank_">Maciej Zaremba</a>, and
-					<a href="http://www.semantistar.com/" target="_blank">Bill McDaniel</a>
-			   </li>
-
-                        </ul>
-                        
-                        <li><u>Speaking engagements</u></li>
-                        <ul>
-			    <li><em><a href="docs/Advances%20in%20deep%20learning.pdf" target="_blank">Overview on Deep Learning</a></em><br/>NVIDIA, summer 2014; Pinterest, summer 2014
-			   </li>
-			    <li><em><a href="docs/Computation%20discovery.pdf" target="_blank">Learning to Discover Efficient Mathematical Identities</a></em><br/>Berkeley, summer 2014
-			   </li>
-			    <li><em><a href="docs/Intriguing%20properties%20of%20neural%20networks.pdf" target="_blank">Intriguing properties of neural networks</a></em><br/>Berkeley, summer 2014
-			   </li>
-			   <li><em><a href="docs/Learning%20to%20Execute.pdf" target="_blank">Learning to Execute</a></em><br/>Facebook; Psychology department NYU, fall 2014
-			   </li>
-
-         <li><em><a href="docs/Learning%20to%20manipulate%20symbols.pdf" target="_blank">Learning to manipulate symbols</a></em><br/>Max Planck Institute, Tubingen, fall 2014
-			   </li>
-                        </ul>
-
-                        
-                        <li><u>Dissertation</u></li>
-                        <ul>
-			    <li><em><a href="docs/master.pdf" target="_blank">Modeling the variability of EEG/MEG data through statistical machine learning</a></em><br/>
-                                        M.Sc. defended with A grade.
-                                        <br/>Under supervision of <a href="http://vision.mas.ecp.fr/Personnel/blaschko/" target="_blank">Matthew Blaschko</a><br/>
-			   </li>
-                        </ul>
-
-
-                        <li><u>Patents</u></li>
-                        <ul>
-			    <li><em><a href="http://www.google.com/patents/US20100290618" target="_blank">Method and Apparatus for Authenticating a User</a></em><br/>US Patent<br/>
-					<a href="http://grzonkowski.com/" target="_blank">Sławomir  Grzonkowski</a> and
-					Wojciech Zaremba
-			   </li>
-                        </ul>
-                     </ul>
+         <div class="alert alert-dismissable alert-danger">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="page-header">
+                     <h1 id="speaking">Speaking engagements</h1>
                   </div>
-                  <div id="prizes">
-                     <h3>Prizes and Scholarships</h3>
-                     <ul>
-			<li><a target="_blank" href=http://www.imo-official.org/participant_r.aspx?id=15754>Silver Medal</a>, 48th International Mathematical Olympiad<br/> 2007, Vietnam</li>
-                        <li>Hadamard Foundation Scholarship<br/> 2012, Paris, France</li>
-                        <li>14th place Vojtech Jarnik International Mathematical Competition<br/> 2011, Ostrava, Czech Republic</li>
-                        <li>University of Warsaw scholarships for academic performance<br/> 2008-2010, Warsaw, Poland</li>
-                        <li>26th place Vojtech Jarnik International Mathematical Competition<br/> 2008, Ostrava, Czech Republic</li>
-			<li>Second Prize, 15th International Mathematics Competition<br/> 2008, Bulgaria</li>
-			<li>3rd place, 7th Czech-Polish-Slovakian Mathematical Competition<br/> 2007, Czech Republic</li>
-			<li>2nd place, 58th Polish Mathematical Olympiad<br/>2007, Poland</li>
-			<li>Scholar of the Polish Children's Fund<br/>2000-2007, Poland </li>
-			<li>Scholarship from Polish President Aleksander Kwaśniewski<br/>2000, Poland</li>
-                     </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="table-responsive">
+                     <table class="table">
+                        <thead>
+                           <tr>
+                              <th>Date</th>
+                              <th>Talk</th>
+                              <th>Location</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+
+                        
+                        <tr>
+                           <td>Summer 2014</td>
+                           <td> <a href="docs/Advances%20in%20deep%20learning.pdf" target="_blank">Overview on Deep Learning</a> </td>
+                           <td>NVIDIA, Pinterest</td>
+                        </tr>
+ 
+                        <tr>
+                           <td>Summer 2014</td>
+                           <td>   <a href="docs/Computation%20discovery.pdf" target="_blank">Learning to Discover Efficient Mathematical Identities</a> </td>
+                           <td>Berkeley</td>
+                        </tr>
+
+                        <tr>
+                           <td>Summer 2014</td>
+                           <td>  <a href="docs/Intriguing%20properties%20of%20neural%20networks.pdf" target="_blank">Intriguing properties of neural networks</a>  </td>
+                           <td>Berkeley</td>
+                        </tr>
+
+                        <tr>
+                           <td>Fall 2014</td>
+                           <td>   <a href="docs/Learning%20to%20manipulate%20symbols.pdf" target="_blank">Learning to manipulate symbols</a>   </td>
+                           <td>Tubingen</td>
+                        </tr>
+
+
+                           </tr>
+                        </tbody>
+                     </table>
                   </div>
                </div>
             </div>
          </div>
+
+
+	 
+	 <div class="alert alert-dismissable alert-success">
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="page-header">
+                     <h1 id="code">Hobby</h1>
+                  </div>
+               </div>
+            </div>
+
+	    <div class="row">
+                <center>
+               <iframe width="400" height="315" src="https://www.youtube.com/embed/UU8CWP3wosg" frameborder="0" allowfullscreen></iframe>
+               <iframe width="400" height="315" src="https://www.youtube.com/embed/MNIm6eIqZ2M" frameborder="0" allowfullscreen></iframe>
+                </center>
+                <center>
+                Skydiving (+200 jumps, 7h in wind tunnel)
+                </center>
+                <br/>
+                <center>
+                    <img src="img/hydrogen.png" alt="chemistry" style="width:400px;">
+                </center>
+                <center>
+                    Latex glove filled with home-synthesized hydrogen;
+                    Chemistry reminds of me of my childhood
+                </center>
+
+
+                </br>
+
+
+
+         </div>
+	 
+
+
       </div>
    </body>
 </html>
+
