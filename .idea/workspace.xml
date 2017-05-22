@@ -30,12 +30,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="82" column="34" lean-forward="false" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#center#5;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#center#3;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="286" column="68" lean-forward="false" selection-start-line="286" selection-start-column="68" selection-end-line="286" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +48,7 @@
       <find>gym</find>
       <find>Intri</find>
       <find>my</find>
+      <find>width</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,12 +293,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="82" column="34" lean-forward="false" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#center#5;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#center#3;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="286" column="68" lean-forward="false" selection-start-line="286" selection-start-column="68" selection-end-line="286" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
